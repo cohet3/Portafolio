@@ -33,7 +33,7 @@ this.http.get('assets/data/data-pagina.json')
 .subscribe ( (resp: any)  => {
  
   this.equipo = resp;
-  console.log(resp);
+  // console.log(resp);
 });
 
     
