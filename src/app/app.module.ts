@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 //rutas
 import { AppRoutingModule } from './app-routing.module';
+import { SerchComponent } from './pages/serch/serch.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SerchComponent
   ],
   imports: [
     BrowserModule,
